@@ -8,7 +8,7 @@ st.write("Today, we will explore the concept of growth mindset and how it can he
 
 st.header("whats your chanllenge today")
 user_input = st.text_input("Please enter your challenge for today:")
-if user_input:
+if user_input: 
     st.write(f"Your challenge for today is: {user_input}")
     st.write("Remember, challenges are opportunities for growth. Embrace them and learn from them!")
     else:
